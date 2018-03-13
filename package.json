@@ -1,0 +1,14 @@
+{
+  "name": "voteBot",
+  "version": "0.0.1",
+  "description": "My attempt to create a Discord voting bot",
+  "main": "voteBot.js",
+  "author": "Iliyan Ivanov",
+  "private": true,
+  "dependencies": {
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "discord.js": "^11.3.2",
+    "npm": "^5.7.1",
+    "winston": "^3.0.0-rc2"
+  }
+}
