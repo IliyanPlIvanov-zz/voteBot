@@ -20,7 +20,6 @@ client.on('message', async msg => {
 	}  else if (msg.content === 'fuck') {
 		msg.reply("don't swear!");
 	}
-
 });
 
 client.login(process.env.BOT_TOKEN);
