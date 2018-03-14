@@ -15,9 +15,9 @@ client.on('message', async msg => {
 		msg.reply('hello');
 	} else if (msg.content === 'hello') {
 		msg.reply('hi');
-	}  else if (msg.content === 'bye') {
+	} else if (msg.content === 'bye') {
 		msg.reply('bye');
-	}  else if (msg.content === 'fuck') {
+	} else if (msg.content === 'fuck') {
 		msg.reply("don't swear!");
 	}
 });
